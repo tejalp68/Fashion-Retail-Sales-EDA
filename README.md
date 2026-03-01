@@ -1,48 +1,86 @@
-# Fashion Retail Sales – Exploratory Data Analysis 🛍️📊
-
-This project performs **Exploratory Data Analysis (EDA)** on a Fashion Retail Sales dataset using Python libraries such as **Pandas, NumPy, Matplotlib, and Seaborn**.
 
 ---
 
-## 📁 Dataset
-- **File name:** `Fashion_Retail_Sales.csv`
-- The dataset contains fashion retail sales data used for basic analysis and visualization.
+# 🛍️ Fashion Retail Sales – Exploratory Data Analysis (EDA)
+
+## 📌 Overview
+
+This repository contains an Exploratory Data Analysis (EDA) project performed on a Fashion Retail Sales dataset using Python.
+
+The objective of this project is to clean, analyze, and visualize the dataset to understand patterns and trends in retail sales data.
+
+---
+
+## 📂 Repository Structure
+
+```
+Fashion-Retail-Sales-EDA/
+│
+├── EDA_REPORT1.ipynb          # Jupyter Notebook containing complete EDA
+├── EDA_REPORT1.py             # Python script version of the notebook
+├── Fashion_Retail_Sales.csv   # Dataset file
+└── README.md                  # Project documentation
+```
 
 ---
 
 ## 🛠️ Technologies Used
-- Python 🐍
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
 ---
 
-## 📊 EDA Steps Performed
+## 📊 EDA Workflow
 
-✔ Imported required libraries  
-✔ Loaded CSV file using Pandas  
-✔ Displayed dataset using `df.head()`  
-✔ Checked dataset structure using:
-- `df.info()`
-- `df.describe()`
+### 1️⃣ Data Loading & Inspection
 
-✔ Checked missing values using:
-- `df.isnull()`
+* Imported required libraries
+* Loaded dataset using `pd.read_csv()`
+* Displayed first few rows using `df.head()`
+* Checked dataset structure using `df.info()`
+* Generated statistical summary using `df.describe()`
 
-✔ Handled missing values using:
-- `fillna()`
+### 2️⃣ Data Cleaning
 
-✔ Data visualization using:
-- Histograms
-- Basic plots with Matplotlib & Seaborn
+* Identified missing values using `df.isnull().sum()`
+* Handled missing data using `fillna()`
+
+### 3️⃣ Data Visualization
+
+* Created histograms for distribution analysis
+* Generated basic plots using Matplotlib
+* Created statistical visualizations using Seaborn
 
 ---
 
-## 🚀 How to Run This Project
+## 🚀 How to Run
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/Fashion-Retail-Sales-EDA.git
+1. Clone the repository
+
+   ```
+   git clone https://github.com/your-username/Fashion-Retail-Sales-EDA.git
+   ```
+
+2. Install required libraries
+
+   ```
+   pip install pandas numpy matplotlib seaborn
+   ```
+
+3. Open `EDA_REPORT1.ipynb` in Jupyter Notebook and run all cells.
+
+---
+
+## 🎯 Learning Outcomes
+
+* Understanding dataset structure
+* Handling missing values
+* Performing exploratory data analysis
+* Visualizing data using Python libraries
+
+---
