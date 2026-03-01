@@ -1,6 +1,3 @@
-
----
-
 # 🛍️ Fashion Retail Sales – Exploratory Data Analysis (EDA)
 
 ## 📌 Overview
