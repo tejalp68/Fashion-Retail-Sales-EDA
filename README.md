@@ -81,3 +81,9 @@ Fashion-Retail-Sales-EDA/
 * Visualizing data using Python libraries
 
 ---
+## 🧠 Author
+
+**Tejal Pagar**  
+Python Learner | Aspiring Developer  
+
+
