@@ -84,7 +84,8 @@ Fashion-Retail-Sales-EDA/
 ## 🧠 Author
 
 **Tejal Pagar**  
-Python Learner | Aspiring Developer  
+Python Learner | Aspiring Developer    
+📍 INDIA
 
 ---
 
