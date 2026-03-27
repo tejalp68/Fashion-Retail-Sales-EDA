@@ -69,7 +69,7 @@ Fashion-Retail-Sales-EDA/
    pip install pandas numpy matplotlib seaborn
    ```
 
-3. Open `EDA_REPORT1.ipynb` in Jupyter Notebook and run all cells.
+3. Open `Fashion_retail_sales_eda.ipynb` in Jupyter Notebook and run all cells.
 
 ---
 
