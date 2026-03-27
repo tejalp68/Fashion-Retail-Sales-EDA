@@ -13,8 +13,8 @@ The objective of this project is to clean, analyze, and visualize the dataset to
 ```
 Fashion-Retail-Sales-EDA/
 │
-├── EDA_REPORT1.ipynb          # Jupyter Notebook containing complete EDA
-├── EDA_REPORT1.py             # Python script version of the notebook
+├── Fashion_retail_sales_eda.ipynb          # Jupyter Notebook containing complete EDA
+├── Fashion_retail_sales_eda.py             # Python script version of the notebook
 ├── Fashion_Retail_Sales.csv   # Dataset file
 └── README.md                  # Project documentation
 ```
